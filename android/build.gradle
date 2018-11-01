@@ -19,8 +19,22 @@ android {
   lintOptions {
     abortOnError false
   }
+   buildTypes {
+    release {
+
+    }
+
+    debug {
+
+    }
+
+
+    releaseStaging {
+
+    }
+  }
 }
 
 dependencies {
-  compile "com.facebook.react:react-native:+" // From node_modules
+  api "com.facebook.react:react-native:+" // From node_modules
 }
